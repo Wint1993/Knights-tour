@@ -10,17 +10,13 @@ public class Main {
 
         int chessSize = 6;
         int chessTab[][] = new int [chessSize][chessSize];
-
         for(int i=0;i<chessSize;i++){
-
             for(int j=0;j<chessSize;j++){
-
                 chessTab[i][j] = -1;
             }
         }
         solve(chessTab,chessSize,0,0,0);
     }
-
     public static void displayChessboard(int tab[][]){
 
         if(tab == null){
@@ -37,5 +33,4 @@ public class Main {
             }
         }
     }
-
 }
